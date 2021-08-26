@@ -1,0 +1,11 @@
+[package]
+name = "useagent"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.43"
+ic-agent = { git = "https://github.com/lwshang/agent-rs.git", branch = "lwshang/expose" }
+tokio = { version = "1.8.1", features = ["full"] }
